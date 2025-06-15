@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Login</h2>
+  <input id="email" placeholder="Email" />
+  <input id="password" placeholder="Password" type="password" />
+  <button onclick="login()">Login</button>
+
+  <h2>Tasks</h2>
+  <input id="title" placeholder="Task title" />
+  <input id="priority" placeholder="Priority (low/medium/high)" />
+  <input type="file" id="fileInput" />
+  <button onclick="addTask()">Add</button>
+
+  <label>Filter Status:</label>
+  <select id="statusFilter" onchange="loadTasks()">
+    <option value="">All</option>
+    <option value="completed">Completed</option>
+    <option value="pending">Pending</option>
+  </select>
+
+  <label>Priority:</label>
+  <select id="priorityFilter" onchange="loadTasks()">
+    <option value="">All</option>
+    <option value="low">Low</option>
+    <option value="medium">Medium</option>
+    <option value="high">High</option>
+  </select>
+
+  <ul id="taskList"></ul>
+
+  <script src="App.js"></script>
+</body>
+</html>
