@@ -1,9 +1,3 @@
-Sure, Sarmad! Here's a complete and professional `README.md` file for your **Task Management Application** — ready to be uploaded to GitHub.
-
----
-
-### 📄 `README.md`
-
 ````markdown
 # 🗂️ Task Management Application with Authentication
 
@@ -132,12 +126,6 @@ T_M_Software/
 **Sarmad Umer**
 BS Computer Science | FAST NUCES
 Email: `sarmadumer92@gmail.com`
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ```
 
